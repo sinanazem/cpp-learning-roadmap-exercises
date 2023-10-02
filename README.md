@@ -1,5 +1,5 @@
 # C++ Learning Roadmap and Exercises
-<img src="https://codilime.com/static/5b2073e4f5342829bb2b98045c2b6d46/rust-vs-c-in-low-level-header.png">
+<img src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1285779/regular_1708x683_cover-0813_HowC__Works_Dan_Banner-b27030d457f101a7b7064f9e03940273-ad87c434b85a67383bf17153bf1d3b98.png">
  Welcome to the C++ Learning Roadmap and Exercises repository! This repository contains resources for anyone who wants to learn C++ or improve their C++ programming skills. The resources in this repository are designed for beginners, intermediate and advanced learners.
 
 ## Learning Roadmap
