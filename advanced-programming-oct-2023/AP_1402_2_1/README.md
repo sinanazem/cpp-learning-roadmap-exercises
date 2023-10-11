@@ -1,52 +1,71 @@
-# AP_1402_2_1
+# C++ Exercise Series
 
-# C++ Exercise Repository
+## Overview
 
-This repository contains a collection of C++ exercises and their solutions. These exercises are part of the coursework assigned by [Your Teacher's Name] for the [Course Name] course.
+This repository contains my solutions to the first series of C++ exercises assigned by **Mehran Ghoratolhamid**. <br>The solutions are implemented in C++ and aim to demonstrate my understanding of these concepts.
 
 ## Table of Contents
 
-- [Exercise 1: Title of the Exercise 1](#exercise-1-title-of-the-exercise-1)
-- [Exercise 2: Title of the Exercise 2](#exercise-2-title-of-the-exercise-2)
-- [Exercise 3: Title of the Exercise 3](#exercise-3-title-of-the-exercise-3)
-- [Exercise 4: Title of the Exercise 4](#exercise-4-title-of-the-exercise-4)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
+- [Exercise 1](#exercise-1)
+- [Exercise 2](#exercise-2)
+- [Exercise 3](#exercise-3)
+- [...
 
-## Exercise 1: Title of the Exercise 1
+## Getting Started
 
-- Description: Briefly describe what the exercise requires you to do.
-- Source File: Link to the C++ source code for the exercise.
-- Solution: Link to the solution code you've written.
-- Additional Notes: Any additional notes or comments on the exercise.
+To view and run the code, follow these instructions:
 
-## Exercise 2: Title of the Exercise 2
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/cplusplus-exercise-series.git
+   cd cplusplus-exercise-series
 
-- Description: Briefly describe what the exercise requires you to do.
-- Source File: Link to the C++ source code for the exercise.
-- Solution: Link to the solution code you've written.
-- Additional Notes: Any additional notes or comments on the exercise.
+## Exercise Details
 
-## Exercise 3: Title of the Exercise 3
+### Exercise 1
+- **Description:** Write a program that receives a four-digit number from the input and prints the sum of its digits.<br>
+- **File(s):** exercise1.cpp<br>
+- **Solution:**<br>
+```
+#include <iostream>
+#using namespace std;
+int main() {
+    // تعریف یک متغیر برای نگهداری عدد چهاررقمی
+    int number;
 
-- Description: Briefly describe what the exercise requires you to do.
-- Source File: Link to the C++ source code for the exercise.
-- Solution: Link to the solution code you've written.
-- Additional Notes: Any additional notes or comments on the exercise.
+    // درخواست ورودی از کاربر
+    cout << "Please Enter your number:" ;
+    cin >> number;
 
-## Exercise 4: Title of the Exercise 4
+    // جدا کردن ارقام و محاسبه مجموع آن‌ها
+    int digit1 = number % 10;       
+    int digit2 = (number / 10) % 10; 
+    int digit3 = (number / 100) % 10;
+    int digit4 = number / 1000;
 
-- Description: Briefly describe what the exercise requires you to do.
-- Source File: Link to the C++ source code for the exercise.
-- Solution: Link to the solution code you've written.
-- Additional Notes: Any additional notes or comments on the exercise.
+    // محاسبه مجموع ارقام
+    int sum = digit1 + digit2 + digit3 + digit4;
 
-## How to Use
+    // چاپ نتیجه
+    cout << "Sum: " << sum << std::endl;
 
-Include instructions on how to compile and run the C++ code for each exercise. Provide any prerequisites, if necessary.
+    return 0;
+}
 
-```bash
-# Example instructions to compile and run Exercise 1
-g++ exercise1.cpp -o exercise1
-./exercise1
+```
+
+### Exercise 2
+- **Description:** Write a program that receives a four-digit number from the input and prints the sum of its digits.<br>
+- **File(s):** exercise1.cpp<br>
+- **Solution:**<br>
+```
+
+```
+
+### Exercise 3
+- **Description:** Write a program that receives a four-digit number from the input and prints the sum of its digits.<br>
+- **File(s):** exercise1.cpp<br>
+- **Solution:**<br>
+```
+
+```
