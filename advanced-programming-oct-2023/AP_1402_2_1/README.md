@@ -37,7 +37,7 @@ int main() {
     int sum = digit1 + digit2 + digit3 + digit4;
 
   
-    cout << "Sum: " << sum << std::endl;
+    cout << "Sum: " << sum << endl;
 
     return 0;
 }
