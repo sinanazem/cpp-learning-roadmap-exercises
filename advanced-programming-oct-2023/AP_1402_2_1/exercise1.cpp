@@ -1,9 +1,9 @@
 #include <iostream>
-#using namespace std;
+
 int main() {
     int number;
-    cout << "Please Enter your number:" ;
-    cin >> number;
+    std::cout << "Please Enter your number:" ;
+    std::cin >> number;
 
 
     int digit1 = number % 10;
@@ -15,7 +15,7 @@ int main() {
     int sum = digit1 + digit2 + digit3 + digit4;
 
 
-    cout << "Sum: " << sum << endl;
+    std::cout << "Sum: " << sum << std::endl;
 
     return 0;
 }
