@@ -59,3 +59,6 @@ Here are some resources that we recommend:
 
 ## Conclusion
 We hope that this repository helps you on your journey to learning C++. If you have any feedback or suggestions, please let us know. Happy coding!
+
+<hr>
+
